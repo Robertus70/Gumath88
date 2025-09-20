@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bintang Web</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">⭐️ Bintang Web</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Beranda</a></li>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#services">Layanan</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+      <button id="darkModeToggle" class="toggle-btn">🌓</button>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero" data-aos="fade-in">
+    <h1>Selamat Datang di Bintang Web</h1>
+    <p>Solusi desain web modern Anda ✨</p>
+    <a href="#contact" class="btn">Hubungi Kami</a>
+  </section>
+
+  <section id="about" class="about" data-aos="fade-up">
+    <h2>Tentang Kami</h2>
+    <p>Kami menciptakan website cantik dan fungsional untuk mengembangkan bisnismu 🚀.</p>
+  </section>
+
+  <section id="services" class="services" data-aos="fade-right">
+    <h2>Layanan Kami</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Desain</h3>
+        <p>UI/UX yang elegan dan ramah pengguna</p>
+      </div>
+      <div class="card">
+        <h3>Pengembangan</h3>
+        <p>Website responsif dan cepat</p>
+      </div>
+      <div class="card">
+        <h3>SEO</h3>
+        <p>Optimasi ke mesin pencari seperti Google</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact" data-aos="fade-up">
+    <h2>Hubungi Kami</h2>
+    <form action="https://formspree.io/f/yourFormID" method="POST">
+      <input type="text" name="name" placeholder="Nama Anda" required />
+      <input type="email" name="email" placeholder="Email Anda" required />
+      <textarea name="message" placeholder="Pesan Anda" required></textarea>
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <footer data-aos="fade-in">
+    <p>&copy; 2025 Bintang Web. Semua hak dilindungi.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
